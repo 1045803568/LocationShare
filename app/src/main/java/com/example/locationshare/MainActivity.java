@@ -63,13 +63,13 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
-    private void hideFragment(FragmentTransaction fragmentTransaction) {
-        if(fragmentA != null){
-            fragmentTransaction.hide(fragmentA);
-        }
-        if(fragmentB != null){
-            fragmentTransaction.hide(fragmentB);
-        }
-    }
+//    private void hideFragment(FragmentTransaction fragmentTransaction) {
+//        if(fragmentA != null){
+//            fragmentTransaction.hide(fragmentA);
+//        }
+//        if(fragmentB != null){
+//            fragmentTransaction.hide(fragmentB);
+//        }
+//    }
 
 }
